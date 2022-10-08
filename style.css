@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Courier Prime";
+    src: url(/assets/CourierPrime-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#Hello,#Name,#Description,#Work,#Contact {
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+#Background {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background: rgb(36,101,116);
+    background: linear-gradient(to bottom, rgba(36,101,116,1) 68%, rgba(41,122,139,0.2049194677871149) 100%);
+    max-width: 100%;
+}
+
+#Hello {
+    font-size: 2.50vw;
+    color: white;
+    position: absolute;
+    left: 19.58vw;
+    top: 18.23vw;
+}
+
+#Name {
+    font-size: 6.67vw;
+    color: black;
+    position: absolute;
+    left: 19.58vw;
+    top: 20.83vw;
+}
+
+#Description {
+    font-size: 1.56vw;
+    color: white;
+    position: absolute;
+    left: 19.58vw;
+    top: 27.87vw;
+}
+
+#Work {
+    font-size: 1.34vw;
+    color:white;
+    position: absolute;
+    left: 69.79vw;
+    top: 2.76vw;
+    text-decoration: none;
+}
+
+#Contact {
+    font-size: 1.34vw;
+    color:white;
+    position: absolute;
+    left: 85.94vw;
+    top: 2.76vw;
+    text-decoration: none;
+}
+
+#Logo {
+    position: absolute;
+    width:3.13vw;
+    height:7.8vw;
+    left: 3.07vw;
+    top: 1.09vw;
+    max-width: 100%;
+}
